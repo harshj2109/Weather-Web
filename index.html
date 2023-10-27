@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+    <div class="container1">
+      <div class="navbar">
+        <div class="app-name">
+          <h2 class="heading">Weather</h2>
+        </div>
+
+        <div class="input-item">
+          <input type="text" placeholder="Enter a city" id="city" />
+          <input type="submit" value="Search" id="search" />
+        </div>
+      </div>
+
+      <div class="weathercity">
+        <h2>Weather of <span id="cityname"></span></h2>
+      </div>
+
+      <div class="info">
+        <div class="min-temp sideinfo heads">
+          Min-Temp <br />
+          <span id="mintemp"></span>
+        </div>
+        <div class="maintemp heads">
+          Temperature <br />
+          <span id="temp"></span>
+        </div>
+        <div class="max-temp sideinfo heads">
+          Max-Temp <br />
+          <span id="maxtemp"></span>
+        </div>
+      </div>
+      <footer class="footer">
+        <ul class="list">
+          <li class="li-items">
+            Cloud-Pct
+
+            <br /><span id="list1"></span>
+          </li>
+          <li class="li-items">
+            Feels-Like
+            <br /><span id="list2"></span>
+          </li>
+          <li class="li-items">
+            Humidity
+            <br /><span id="list3"></span>
+          </li>
+          <li class="li-items">
+            Wind-Speed
+            <br /><span id="list4"></span>
+          </li>
+          <li class="li-items">
+            Wind-degrees
+            <br /><span id="list5"></span>
+          </li>
+          <li class="li-items">
+            Sunrise
+            <br /><span id="list6"></span>
+          </li>
+          <li class="li-items">Sunset <br /><span id="list7"></span></li>
+        </ul>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

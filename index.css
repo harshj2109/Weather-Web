@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* main-page */
+.container1{
+    /* overflow: hidden; */
+width: 100%;
+height: 100%;
+/* background-attachment: fixed; */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url('./cloud.jpg') ;
+position: absolute;
+
+top: 0;
+left: 0;
+}
+
+.navbar{
+    /* background-color: black; */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.heading
+{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.heading::first-letter{
+    
+    font-size: 38px;
+    color: red;
+}
+.weathercity {
+    width: 100%;
+    text-align: center;
+
+}
+
+.weathercity h2{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    
+}
+.weathercity h2 span{
+    /* letter-spacing: 1px; */
+    text-transform: uppercase;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 0 10px;
+}
+.app-name{
+margin: auto 0;
+
+}
+.input-item{
+margin: auto 0;
+
+}
+#city{
+    padding: 0px 10px;
+    width: 188px;
+    height: 46px;
+    /* border: 1px solid black; */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#search{
+    padding: 15px 20px; 
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    margin-top: 40px;
+}
+.heads{
+    font-size: 35px;
+    text-align: center;
+    margin: 0 80px;
+}
+
+.maintemp{
+font-size: 70px;
+
+}
+.maintemp span{
+    display: block;
+    margin-top: 5px;
+font-size: 100px;
+color: red;
+}
+.sideinfo span{
+    display: block;
+    margin-top: 10px;
+}
+
+.list{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+.li-items{
+    list-style: none;
+    margin: 70px 0;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px white;
+    transition: all 0.5s;
+    
+
+}
+.li-items:hover{
+    /* transform:rotateY(180deg); */
+    transform: scale(1.1);
+    
+}
+
+.li-items span{
+    display: block;
+    margin-top: 10px;
+    font-size: 25px;
+}

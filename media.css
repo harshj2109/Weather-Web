@@ -1,0 +1,128 @@
+@media only screen and (max-width:425.7px){
+
+    .container1{
+        /* overflow: hidden; */
+    
+    height:auto;
+    
+    }
+    .navbar{
+        
+        
+
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .heading
+    {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+    .heading::first-letter{
+        
+        font-size: 35px;
+        color: red;
+    }
+    .weathercity {
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .weathercity h2{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        padding-top: 30px;
+        
+    }
+    .weathercity h2 span{
+        /* letter-spacing: 1px; */
+        text-transform: uppercase;
+        color: red;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        padding: 0 10px;
+    }
+    .app-name{
+    margin: auto 0;
+    
+    }
+    .input-item{
+    margin: auto 0;
+    
+    }
+    #city{
+        padding: 0px 10px;
+        width: 188px;
+        height: 46px;
+        /* border: 1px solid black; */
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    #search{
+        padding: 15px 20px; 
+        font-size: 16px;
+        background-color: blue;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    
+    }
+    
+    .info{
+       
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .heads{
+        font-size: 25px;
+        text-align: center;
+        margin: 0 0px;
+    }
+    
+    .maintemp{
+    font-size: 35px;
+    margin: 20px 0;
+    
+    }
+    .maintemp span{
+        
+        margin-top: 5px;
+    font-size: 40px;
+    
+    }
+ 
+    
+    .list{
+        
+        flex-direction: column;
+    }
+    .li-items:first-child{
+        margin-top: 60px;
+    }
+    .li-items{
+        width: 80%;
+        margin: 10px auto;
+    
+        font-size: 22px;
+        
+        padding:20px;
+        border-radius: 10px;
+    
+        
+    
+    }
+    
+    
+    .li-items span{
+        display: block;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+}
