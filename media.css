@@ -1,3 +1,282 @@
+@media only screen and (max-width:2720px) and (min-width:2560px){
+
+    
+    .heading
+    {
+
+        font-size: 50px;
+    }
+    .heading::first-letter{
+        
+        font-size: 55px;
+
+    }
+    #city{
+       
+        width: 296px;
+        height: 80px;
+        
+        font-size: 24px;
+    }
+    #search{
+        padding: 27px 20px; 
+        font-size: 24px;
+        
+    
+    }
+    
+    
+    .weathercity h2{
+        font-size: 82px;
+        padding-top: 100px;
+        
+    }
+   
+    
+    
+    .info{
+       
+        margin-top: 192px;
+    }
+    .heads{
+        font-size: 55px;
+        
+    }
+    
+    .maintemp{
+    font-size: 91px;
+    
+    }
+    .maintemp span{
+    
+    font-size: 105px;
+    
+    }
+    
+    .li-items{
+        
+        margin: 199px 0;
+        
+        font-size: 37px;
+    
+        padding:36px;
+        
+        
+    
+    }
+    
+    .li-items span{
+        
+        font-size: 37px;
+    }
+}
+
+@media only screen and (max-width:1440px) and (min-width:1025px) {
+    .heading
+    {
+
+        font-size: 36px;
+    }
+    .heading::first-letter{
+        
+        font-size: 39px;
+
+    }
+    #city{
+       
+        width: 195px;
+    height: 49px;
+    font-size: 18px;
+    }
+    #search{
+        padding: 14px 20px;
+    font-size: 18px;
+        
+    
+    }
+    
+    
+    .weathercity h2{
+        font-size: 48px;
+    padding-top: 50px;
+}
+        
+    
+   
+    
+    
+    .info{
+       
+        margin-top: 62px;
+    }
+    .heads{
+        font-size: 34px;
+        
+    }
+    
+    .maintemp{
+    font-size: 59px;
+    
+    }
+    .maintemp span{
+    
+    font-size: 70px;
+    
+    }
+    
+    .li-items{
+        
+        margin: 90px 0;
+    font-size: 21px;
+    padding: 21px;
+        
+    
+    }
+    
+    .li-items span{
+        
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:769px) {
+    .heading
+    {
+
+        font-size: 32px;
+    }
+    .heading::first-letter{
+        
+        font-size: 34px;
+
+    }
+    #city{
+       
+        width: 170px;
+    height: 45px;
+    font-size: 18px;
+    }
+    #search{
+        padding: 12px 16px;
+    font-size: 18px;
+        
+    
+    }
+    
+    
+    .weathercity h2{
+        font-size: 46px;
+    padding-top: 50px;
+}
+        
+    
+   
+    
+    
+    .info{
+       
+        margin-top: 70px;
+    }
+    .heads{
+        font-size: 30px;
+        
+    }
+    
+    .maintemp{
+    font-size: 50px;
+    
+    }
+    .maintemp span{
+    
+    font-size: 65px;
+    
+    }
+    
+    .li-items{
+        
+        margin: 105px 0;
+    font-size: 21px;
+    padding: 15px;
+        
+    
+    }
+    
+    .li-items span{
+        
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:426px) {
+    
+    .heading
+    {
+
+        font-size: 30px;
+    }
+    .heading::first-letter{
+        
+        font-size: 32px;
+
+    }
+    #city{
+       
+        width: 160px;
+    height: 45px;
+    font-size: 18px;
+    }
+    #search{
+        padding: 12px 14px;
+    font-size: 18px;
+        
+    
+    }
+    
+    
+    .weathercity h2{
+        font-size: 42px;
+    padding-top: 50px;
+}
+        
+    
+   
+    
+    
+    .info{
+    
+       
+        margin-top: 90px;
+    }
+    .heads{
+        font-size: 26px;
+        margin: 0 40px;
+    }
+    
+    .maintemp{
+    font-size: 45px;
+    
+    }
+    .maintemp span{
+    
+    font-size: 50px;
+    
+    }
+    
+    
+    .li-items{
+        
+        margin: 105px 0;
+    font-size: 15px;
+    padding: 12px 20px;
+    
+    }
+    
+    .li-items span{
+        
+        font-size: 17px;
+    }
+}
+
 @media only screen and (max-width:425.7px){
 
     .container1{
